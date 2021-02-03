@@ -13,6 +13,7 @@ export class SalesPersonComponent implements OnInit {
     new SalesPerson("mohamed", "ahmed", "mohamed@gmail.com", 5000),
     new SalesPerson("mostafa", "ahmed", "mostafa@gmail.com", 6000),
   ];
+
   constructor() {}
 
   ngOnInit(): void {
